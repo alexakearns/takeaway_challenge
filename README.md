@@ -36,6 +36,19 @@
 | Order    | List of order<br>Total value<br>Print Order |
 | Delivery | Confirm delivery                            |
 
+## Journal
+
+* [ ] 1
+
+  > As a customer  
+  > So that I can check if I want to order something  
+  > I would like to see a list of dishes with prices
+
+Create dish_spec.rb and dish.rb
+Each dish needs a state of name and price - Green
+
+
+
 ## Instructions
 
 - Hints on functionality to implement:
