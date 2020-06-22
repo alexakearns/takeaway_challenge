@@ -4,7 +4,7 @@
 
 - Write a Takeaway program with the following user stories:
 
-* [ ] 1
+* [x] 1
 
   > As a customer  
   > So that I can check if I want to order something  
@@ -38,7 +38,7 @@
 
 ## Journal
 
-* [ ] 1
+* [x] 1
 
   > As a customer  
   > So that I can check if I want to order something  
@@ -47,7 +47,11 @@
 Create dish_spec.rb and dish.rb
 Each dish needs a state of name and price - Green
 
-
+Create menu_spec.rb and menu.rb
+ * new menu initialized with menu Hash
+ * create add_dish method
+ * print_list method returns list of dishes with name and price
+   * add header to be printed
 
 ## Instructions
 
