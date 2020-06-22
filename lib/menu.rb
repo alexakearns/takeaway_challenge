@@ -3,13 +3,13 @@ require_relative 'dish'
 class Menu
 
   attr_reader :list
-
+  
   def initialize
-    @list = {}
+    @list = []
+    @header = 'Name     Price   '
   end
 
   def add_dish(name, price)
-    @list[name] = Dish.new(name, price)
+    @list << Dish.new(name, price)
   end
-
 end
