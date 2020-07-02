@@ -53,6 +53,15 @@ Create menu_spec.rb and menu.rb
  * print_list method returns list of dishes with name and price
    * add header to be printed
 
+* [ ] 2
+
+  > As a customer  
+  > So that I can order the meal I want  
+  > I would like to be able to select some number of several available dishes
+
+Create order_spec.rb and order.rb
+Order to create list of dishes to be ordered and store in receipt
+
 ## Instructions
 
 - Hints on functionality to implement:
