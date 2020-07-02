@@ -19,4 +19,8 @@ class Menu
       puts "#{dish.name}    £#{dish.price}" 
     }
   end
+
+  def provide_dish(name)
+    list.select(&:name)
+  end
 end

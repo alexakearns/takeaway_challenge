@@ -17,4 +17,10 @@ describe Menu do
     subject.add_dish('pasta', 5)
     expect { subject.print_list }.to output("Name     Price\nburger    £6.99\npasta    £5\n").to_stdout
   end
+
+  it '#provide_dish returns dish item from name' do
+    subject.add_dish('burger', 6.99)
+    subject.add_dish('pasta', 5)
+    expect(subject.provide_dish('pasta')).to 
+  end
 end
